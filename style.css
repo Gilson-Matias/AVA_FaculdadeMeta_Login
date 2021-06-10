@@ -1,0 +1,152 @@
+/* =========== RESET =========== */
+*{
+  padding: 0;
+  margin: 0;
+  font-size: 100%;
+  font-family: 'Poppins', sans-serif;
+  outline: none;
+}
+
+/* =========== BODY =========== */
+body{
+  background-color: #f1f1f1;
+  background-image: url(img/login_bg.png);
+  background-size: cover;
+}
+
+/* =========== CONTAINER =========== */
+.container{
+  padding: 32px;
+}
+
+.elementos-centrais{
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.elementos-centrais .logo{
+  text-align: center;
+  margin-top: 50px;
+}
+/* =========== CAIXA PRINCIPAL =========== */
+
+.caixa-principal{
+  display: flex;
+}
+
+/* =========== CAIXA PRINCIPAL - ESQUERDA =========== */
+.caixa-esquerda{
+  background-color: #203d85;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  padding: 60px 15px;
+  border-radius: 10px 0 0 10px;
+  box-sizing: border-box;
+}
+
+.caixa-esquerda .parte-cima h1{
+  font-size: 2em;
+  font-weight: normal;
+}
+
+.caixa-esquerda .parte-baixo h2{
+  font-size: 1.6em;
+  font-weight: normal;
+  margin: 10px 0;
+}
+
+.caixa-esquerda hr{
+  width: 57%;
+  border: 0.5px solid white;
+  box-sizing: border-box;
+  margin: 10px 0;
+}
+
+.caixa-esquerda p{
+  font-size: 0.9em;
+}
+
+/* =========== CAIXA PRINCIPAL - DIREITA =========== */
+.caixa-direita{
+  background-color: white;
+  padding: 20px 15px;
+  border-radius: 0 10px 10px 0;
+  box-sizing: border-box;
+}
+
+.caixa-direita h3{
+  font-weight: normal;
+  margin-bottom: 15px;
+  font-size: 1.2em;
+}
+
+.botao-entrar button{
+  background-color: #203d85;
+  color: white;
+  border: none;
+  width: 100%;
+  margin-bottom: 15px;
+  height: 40px;
+  cursor: pointer;
+  transition: 0.3s
+}
+
+.nome{
+  display: flex;
+  height: 40px;
+}
+
+.nome input{
+  width: 88%;
+  border: 1px solid #dcdde1;
+  padding-left: 5px;
+}
+
+.nome #icon-user{
+  width: 12%;
+  border: 1px solid #dcdde1;
+  text-align: center;
+  line-height: 40px;
+  color: #353b48;
+}
+
+.senha{
+  display: flex;
+  height: 40px;
+}
+
+.senha input{
+  width: 88%;
+  border: 1px solid #dcdde1;
+  padding-left: 5px;
+}
+
+.senha #icon-senha{
+  width: 12%;
+  border: 1px solid #dcdde1;
+  text-align: center;
+  line-height: 40px;
+  color: #353b48;
+}
+
+.criar-conta{
+  margin: 15px 0;
+  padding: 10px;
+  background-color: #dcdde1;
+  border: none;
+  color: #353b48;
+  font-size: 0.9em;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.criar-conta:hover{
+  background-color: #7f8fa6;
+}
+
+.botao-entrar button:hover{
+  background-color: white;
+  color: #203d85;
+  border: 1px solid #203d85;
+}
